@@ -11,7 +11,7 @@ define('DILICMS_EXTENSION_PATH', BASEPATH . '../extensions/');
 
 defined('DOMAIN_BASE_URL') OR define('DOMAIN_BASE_URL','http://192.168.0.251:9999/'); //http://127.0.0.1/SPSOS 58.34.221.38
 defined('DOMAIN_ADMIN_URL') OR define('DOMAIN_ADMIN_URL','http://192.168.0.251:9999/admin/'); //http://127.0.0.1/SPSOS 58.34.221.38
-define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production'); //production
+define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production'); //production 如果是开发环境，则书写development
 
 defined('IS_CAPTURE') OR define('IS_CAPTURE',FALSE);
 
